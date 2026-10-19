@@ -51,12 +51,12 @@ ICE WORKS 将后数字极简主义、编辑式排版和生成艺术结合在一�
 
 ## 交互方式
 
-| 操作 | 结果 |
-| --- | --- |
-| 滚轮 | 旋转圆环并产生惯性 |
-| 鼠标拖拽 | 直接控制旋转方向与速度 |
-| 悬停卡片 | 卡片抬升、邻居避让并生成粒子阴影 |
-| 点击非中心卡片 | 平滑旋转到正面位置 |
+| 操作           | 结果                             |
+| -------------- | -------------------------------- |
+| 滚轮           | 旋转圆环并产生惯性               |
+| 鼠标拖拽       | 直接控制旋转方向与速度           |
+| 悬停卡片       | 卡片抬升、邻居避让并生成粒子阴影 |
+| 点击非中心卡片 | 平滑旋转到正面位置               |
 
 本版本以**桌面端**为主要展示环境，推荐在宽度大于 1024px 的窗口中体验。设计基准视口为 1512 × 870。
 
@@ -77,7 +77,7 @@ ICE WORKS 将后数字极简主义、编辑式排版和生成艺术结合在一�
 环境要求：**Node.js 20 或更高版本**。
 
 ```bash
-git clone https://github.com/MegD1/Ice-works-showcase.git
+git clone https://github.com/kanshao2077/Ice-works-showcase.git
 cd Ice-works-showcase
 npm install
 npm run dev
@@ -85,12 +85,12 @@ npm run dev
 
 打开 [http://localhost:3000](http://localhost:3000)。
 
-| 命令 | 用途 |
-| --- | --- |
-| `npm run dev` | 启动开发服务器 |
-| `npm run build` | 创建生产构建 |
-| `npm start` | 运行生产构建 |
-| `npm run lint` | 执行 ESLint 检查 |
+| 命令            | 用途             |
+| --------------- | ---------------- |
+| `npm run dev`   | 启动开发服务器   |
+| `npm run build` | 创建生产构建     |
+| `npm start`     | 运行生产构建     |
+| `npm run lint`  | 执行 ESLint 检查 |
 
 ## 自定义内容
 
@@ -145,6 +145,8 @@ components/
 
 ## 衍生关系与署名
 
+本仓库导入自 [MegD1/Ice-works-showcase](https://github.com/MegD1/Ice-works-showcase)，保留原项目源码、提交记录、作者署名、许可证和第三方素材说明。
+
 本仓库是基于 Yousuf Soomro 的 [Viscose Carousel](https://github.com/Yousuf-developer/Viscose-carousel) 制作的**衍生研究版本**。原项目采用 MIT License，原始版权声明已保留在 [LICENSE](LICENSE) 中。
 
 圆环概念、WebGL 基础实现和主要交互方式来自原项目。本版本在其基础上完成了以下调整：
@@ -168,11 +170,11 @@ components/
 
 ### 字体
 
-| 字体 | 用途 | 许可说明 |
-| --- | --- | --- |
-| Satoshi | 项目名称、类型与索引 | Fontshare 免费字体 |
-| Geist | 数字、年份与加载计数 | SIL Open Font License |
-| PP Neue Montreal | 开场标题与鼠标标签 | 商业字体，仅供本地评估 |
+| 字体             | 用途                 | 许可说明               |
+| ---------------- | -------------------- | ---------------------- |
+| Satoshi          | 项目名称、类型与索引 | Fontshare 免费字体     |
+| Geist            | 数字、年份与加载计数 | SIL Open Font License  |
+| PP Neue Montreal | 开场标题与鼠标标签   | 商业字体，仅供本地评估 |
 
 仓库中的 PP Neue Montreal 字体文件不包含在 MIT License 中。用于正式发布或商业项目时，请自行购买授权，或替换为可商用字体。
 
